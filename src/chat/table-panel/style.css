@@ -1,0 +1,17 @@
+table-panel {
+    position: absolute;
+    
+    
+    width: 100%;
+    display: block;
+    background: lightgray;
+    -webkit-transition: 0.3s;
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    
+    top: 24%;
+    height: 65%;
+    left: 15%;
+    overflow: scroll;
+    
+}

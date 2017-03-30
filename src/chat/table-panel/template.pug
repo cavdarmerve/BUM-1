@@ -1,0 +1,14 @@
+<table width=85% border="1">
+  <tr>
+    <td width=30%>TRACK</td>
+    <td width=30%>ARTIST</td>
+    <td width=30%>ALBUM</td>
+    <td width=10%>LENGTH</td>
+  </tr>
+
+  <tr ng-repeat="track in $ctrl.tracks">
+    <td>{{track.name}}</td>
+    <td>{{track.artist}}</td>
+    <td>{{track.album}}</td>
+    <td>{{track.length}}</td>
+</table>

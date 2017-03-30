@@ -1,0 +1,38 @@
+
+
+side-panel {
+    position: absolute; 
+    width: 15%; 
+    background: lightgrey;
+    height: 100%;
+    
+}
+
+button {
+    
+    display: block;
+    background: #999;
+    color: #fff;
+    margin: 5%;
+    padding: 5%;
+    border: 5%;
+    width: 90%;
+    
+    
+    }
+    
+.buttonContainer { 
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    }
+
+h5{
+    display: block;
+    font-size: 1.05em;
+    font-weight:bold;
+    font-style: italic;
+    top: 10%;
+    color: darkslategrey;
+    text-align: center;
+}
